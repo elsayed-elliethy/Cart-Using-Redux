@@ -1,4 +1,4 @@
-.button {
+/* .button {
   background-color: transparent;
   border-color: #1ad1b9;
   color: #1ad1b9;
@@ -18,4 +18,34 @@
   border-radius: 30px;
   padding: 0.15rem 1.25rem;
   color: #1d1d1d;
+} */
+.cart-button {
+  background-color: transparent;
+  border-color: #1ad1b9 !important;
+  color: #1ad1b9;
+}
+
+.cart-button:hover,
+.cart-button:active {
+  color: white;
+}
+
+.cart-button span {
+  margin: 0 0.5rem;
+}
+
+.badge {
+  background-color: #1ad1b9;
+  border-radius: 30px;
+  padding: 0.15rem 1.25rem;
+  color: #1d1d1d;
+}
+
+@media (max-width: 767px) {
+  .cart-button {
+    padding: 0.5rem;
+  }
+  .badge {
+    padding: 0.15rem 0.75rem;
+  }
 }
